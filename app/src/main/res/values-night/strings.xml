@@ -2,4 +2,5 @@
 <resources>
     <string name="Score">YourScore</string>
     <string name="TimeLeft">TimeLeft</string>
+    <string name="clickMe">ClickMe</string>
 </resources>

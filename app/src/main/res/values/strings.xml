@@ -2,4 +2,5 @@
     <string name="app_name">Time Fighter</string>
     <string name="Score">YourScore</string>
     <string name="TimeLeft">TimeLeft</string>
+    <string name="clickMe">ClickMe</string>
 </resources>
