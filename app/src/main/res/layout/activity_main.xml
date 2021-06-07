@@ -7,31 +7,31 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/gameScoreTextView"
         android:layout_width="65dp"
         android:layout_height="17dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        android:text="@string/Score"
-        app:layout_constraintEnd_toEndOf="@+id/textView2"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/your_score"
         app:layout_constraintHorizontal_bias="0.041"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView2"
-        android:layout_width="66dp"
-        android:layout_height="37dp"
-        android:layout_marginTop="16dp"
+        android:id="@+id/timeLeftTextView"
+        android:layout_width="61dp"
+        android:layout_height="17dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="16dp"
-        android:text="@string/TimeLeft"
+        android:text="@string/timeLeft"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.959"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/click_me"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/clickMe"
